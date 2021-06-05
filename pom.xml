@@ -4,36 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.ashimjk</groupId>
+    <groupId>io.github.ashimjk</groupId>
     <artifactId>account</artifactId>
     <version>1.0.0</version>
 
-    <properties>
-        <java.version>11</java.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven-compiler-version>3.8.1</maven-compiler-version>
-        <lombok.version>1.18.20</lombok.version>
-    </properties>
-
-    <scm>
-        <url>scm:git@github.com:ashimjk/account.git</url>
-        <connection>scm:git@github.com:ashimjk/account.git</connection>
-        <developerConnection>scm:git@github.com:ashimjk/account.git</developerConnection>
-        <tag>HEAD</tag>
-    </scm>
-
-    <organization>
-        <name>com.github.ashimjk</name>
-        <url>https://github.com/ashimjk</url>
-    </organization>
-
-    <developers>
-        <developer>
-            <name>Ashim Jung Khadka</name>
-            <email>ashim.jung.khadka@gmail.com</email>
-            <timezone>Asia/Kathmandu</timezone>
-        </developer>
-    </developers>
+    <name>Account</name>
+    <description>A application used as an example on how to set up pushing
+        its components to the Central Repository.
+    </description>
+    <url>https://github.com/ashimjk/account</url>
 
     <licenses>
         <license>
@@ -43,6 +22,34 @@
             <comments>A business-friendly OSS license</comments>
         </license>
     </licenses>
+
+    <developers>
+        <developer>
+            <name>Ashim Jung Khadka</name>
+            <email>ashim.jung.khadka@gmail.com</email>
+            <organization>io.github.ashimjk</organization>
+            <organizationUrl>https://github.com/ashimjk</organizationUrl>
+            <timezone>Asia/Kathmandu</timezone>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/ashimjk/account.git</connection>
+        <developerConnection>scm:git:ssh://github.com:ashimjk/account.git</developerConnection>
+        <url>https://github.com/ashimjk/account</url>
+    </scm>
+
+    <organization>
+        <name>io.github.ashimjk</name>
+        <url>https://github.com/ashimjk</url>
+    </organization>
+
+    <properties>
+        <java.version>11</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven-compiler-version>3.8.1</maven-compiler-version>
+        <lombok.version>1.18.20</lombok.version>
+    </properties>
 
     <build>
         <resources>

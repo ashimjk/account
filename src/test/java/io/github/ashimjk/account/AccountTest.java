@@ -1,4 +1,4 @@
-package com.github.ashimjk;
+package io.github.ashimjk.account;
 
 import org.junit.jupiter.api.Test;
 

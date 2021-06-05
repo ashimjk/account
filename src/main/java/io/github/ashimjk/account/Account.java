@@ -1,4 +1,4 @@
-package com.github.ashimjk;
+package io.github.ashimjk.account;
 
 import lombok.Data;
 
