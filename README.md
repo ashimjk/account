@@ -1,3 +1,3 @@
 # Account
 
-Publishing to Maven Central with OSSRH 
+Publishing to Maven Central with OSSRH
