@@ -4,7 +4,7 @@
 
     <groupId>io.github.ashimjk</groupId>
     <artifactId>account</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
 
     <name>Account</name>
     <description>A application used as an example on how to set up pushing
@@ -35,7 +35,7 @@
         <url>scm:git:git@github.com:ashimjk/account</url>
         <connection>scm:git:git@github.com:ashimjk/account</connection>
         <developerConnection>scm:git:git@github.com:ashimjk/account</developerConnection>
-        <tag>v1.0.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <organization>
