@@ -4,7 +4,7 @@
 
     <groupId>io.github.ashimjk</groupId>
     <artifactId>account</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
 
     <name>Account</name>
     <description>A application used as an example on how to set up pushing
